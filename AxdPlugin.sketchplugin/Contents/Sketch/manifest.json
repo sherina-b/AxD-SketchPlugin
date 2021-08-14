@@ -1,0 +1,68 @@
+{
+    "name" : "AxD Accessibility Tips",
+    "identifier" : "axd.plugin",
+    "version" : "1.0",
+    "description" : "Quickly access AxD accessibility tips right inside Sketch",
+    "authorEmail" : "w1714221@my.westminster.ac.uk",
+    "author" : "Sherina Bigby",
+    "icon": "axd-sketch-icon.png",
+
+    "commands" : [
+    {
+        "script" : "Colour.js",
+        "handler" : "onRun",
+        "shortcut" : "command shift 1",
+        "name" : "Colour",
+        "identifier" : "my.plugin.colour"
+    },
+
+    {
+        "script" : "Typography.js",
+        "handler" : "onRun",
+        "shortcut" : "command shift 2",
+        "name" : "Typography",
+        "identifier" : "my.plugin.typography"
+    },
+
+    {
+        "script" : "Imagery.js",
+        "handler" : "onRun",
+        "shortcut" : "command shift 3",
+        "name" : "Imagery",
+        "identifier" : "my.plugin.imagery"
+    },
+
+    {
+        "script" : "Layout.js",
+        "handler" : "onRun",
+        "shortcut" : "command shift 4",
+        "name" : "Layout",
+        "identifier" : "my.plugin.layout"
+    },
+
+    {
+        "script" : "Content.js",
+        "handler" : "onRun",
+        "shortcut" : "command shift 5",
+        "name" : "Content",
+        "identifier" : "my.plugin.content"
+    },
+
+    {
+        "script" : "Audio.js",
+        "handler" : "onRun",
+        "shortcut" : "command shift 6",
+        "name" : "Audio",
+        "identifier" : "my.plugin.audio"
+    },
+
+    {
+        "script" : "Video.js",
+        "handler" : "onRun",
+        "shortcut" : "command shift 7",
+        "name" : "Video",
+        "identifier" : "my.plugin.video"
+    },
+
+  ],
+}
